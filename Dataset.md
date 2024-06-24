@@ -21,10 +21,22 @@ keys保持一致，均为去除后缀的文件名，如'PMC1064074_007_00'。
 
 "filename": PMC1064074_007_00
 "imgid": 351584
-"otsl":  # 保存OTSL相关标注
-"html"  # 保存HTML相关标注
-  "string": 原始HTML字符串
-  "cells"：原始标注
+"html_string"： 原始HTML字符串
+"ann_1": # 类型1
+  "cells": 原始风格的标注
+  "otsl": OTSL相关标注
   "tablemaster": TableMaster风格的标注
+"ann_2": # 类型2
+"ann_3": # 类型3
+"ann_4": # 类型4
+
 ```
 
+## 标注类型
+
+按照空单元格、BBox标注类型分类：
+
+- 类型#1：有空单元格标注、Bbox tight
+- 类型#2：无空单元格标注、Bbox tight
+- 类型#3：有空单元格标注、Bbox Padded
+- 类型#4：无空单元格标注、Bbox Padded
